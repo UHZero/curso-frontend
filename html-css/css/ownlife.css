@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Rock+3D&family=Shizuru&display=swap');
+
+/*font-family: 'Caveat', cursive;
+
+font-family: 'Rock 3D', cursive;
+
+font-family: 'Shizuru', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: darkorchid;
+}
+
+header {
+    background-image: url("../images/the-xx.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: darkslateblue;
+    padding: 3em;
+}
+
+header > h1 {
+    font-size: 3rem;
+    color: palegoldenrod;
+    font-family: 'Rock 3D', cursive;
+    margin: 0 2em;
+}
+
+section {
+    background-color: #20b8d194;
+}
+
+nav {
+    display: block;
+    float: left;
+    width: 20%;
+    background-image: url("../images/tree-nav.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 100vh;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 3.8rem;
+    font-family: 'Shizuru', cursive;
+    color: springgreen;
+    line-height: 2em;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+article {
+    display: block;
+    float: left;
+    width: 80%;
+    height: 100vh;
+    background-image: url("../images/the-x.png");
+    background-repeat: round;
+}
+
+article > p {
+    font-size: 2.8rem;
+    font-family: 'Caveat', cursive;
+    color: #ff00002e;
+    margin: 10px;
+}
+
+article > p:hover {
+    background-color: rgb(2 13 32 / 87%);
+    font-size: 3rem;
+    color: white;
+}
+
+section::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+footer {
+    display: block;
+    padding: 2em;
+    background-image: url("../images/solo.png");
+    background-repeat: round;
+}
+
+footer > p {
+    font-size: 2rem;
+    font-family: 'Rock 3D', cursive;
+    color: gold;
+}
+
+footer > p:hover {
+    font-size: 3rem;
+}
+
+article > div > a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+#press {
+    font-size: 1.8rem;
+    font-family: 'Caveat', cursive;
+    color: floralwhite;
+    background-color: #d741e18a;
+    width: 13rem;
+    border-radius: 20px 0;
+    text-align: center;
+}
+
+#press:hover {
+    background-color: salmon;
+    font-size: 2rem;
+}
+
+/* Tablet */
+@media (max-width: 820px){
+    article > p {
+        font-size: 1.9rem;
+        color: whitesmoke;
+        margin: 15px;
+    }
+    article > p:hover {
+        font-size: 2rem;
+    }
+    #press {
+        margin: 15px;
+    }
+    nav {
+        background-size: contain;
+    }
+    nav a {
+        font-size: 3rem;
+        margin: 10px;
+        line-height: 2em;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 599px){
+    header > h1 {
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        background-image: unset;
+        width: 100%;
+        height: 8vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    article {
+        width: 100%;
+    }
+    body {
+        min-width: 400px;
+    }
+}

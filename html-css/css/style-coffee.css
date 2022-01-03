@@ -1,0 +1,232 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-1 {
+    background-image: url('../images/coffee-seed.svg');
+    width: 100vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: #685031;
+ 
+}
+
+.background-1 h2 {
+    font-size: xxx-large;
+    color: goldenrod;
+    text-align: left;
+    font-family: "Sofia", sans-serif;
+    letter-spacing: 1.3rem;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+#moment {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    margin-left: 13em;
+    font-size: 2.3rem;
+    color: goldenrod;
+    text-shadow: 3px 3px 2px red;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h3, p, li {
+    font-size: 1.8rem;
+    color: goldenrod;
+}
+
+body {
+    background-color: #906f44;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    /*overflow: overlay;
+    background-image: url('../images/coffee-ground.svg');
+    background-size: auto, auto;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: round;*/
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.coffee-chat {
+    background-image: url('../images/coffee-break.svg');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position-x: center;
+    background-position-y: 6em;
+    height: 100%;
+
+}
+
+.coffee-nav {
+    background-image: url('../images/coffee-nav.svg');
+    background-repeat: repeat;
+    background-size: 200px;
+}
+
+.width-100 {
+    width: 100%;
+    width: 100vw; /* viewport width  */
+    height: 100vh;
+}
+
+
+section {
+    padding: 0em 0;
+}
+
+nav {
+    background-color: #15110B;
+    width: 20%;
+    height: 100vh;
+    display: table;
+    float: left;
+}
+
+.coffee-nav li a {
+    color: khaki;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 2px 5px red;
+    line-height: 5rem;
+    background-color: #7727004f;
+    display: block;
+}
+
+.coffee-nav a:hover {
+    background-color: #3e1501eb;
+    font-size: 2.6rem;
+
+}
+
+.coffee-nav h3 {
+    font-size: 2.3rem;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 5px red;
+    background-color: #7727004f;
+    display: block;
+    padding-left: 1rem;
+}
+
+article {
+    background-color: transparent;
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+article > h2 {
+    font-size: 5rem;
+    margin: 2rem;
+    font-family: "Sofia", sans-serif;
+    color: goldenrod;
+    text-shadow: 9px 2px 4px black;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #685031;
+    margin-top: 0em;
+    padding: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer > p {
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 5px red;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+footer > p > a:hover {
+    color: khaki;
+    font-size: 2.4rem;
+}
+
+.back-footer {
+    background-image: url('../images/coffee-footer.svg');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+form {
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: "Audiowide", sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 5px red;
+}
+
+form div {
+    background-color: #281c1b42;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: .2rem solid #15110B;
+}
+
+/*label {
+    display: block;
+}*/
+
+[type="text"], [type="email"], textarea {
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding: 1rem;
+    display: block;
+}
+
+#send-msg {
+    margin: 0 1em;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+[type="submit"] {
+    padding: 1em;
+    border-radius: 0 2em;
+    background-color: #685031;
+    border-color: #15110b;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 5px red;
+    font-size: 1.4rem;
+}
+
+[type="submit"]:hover {
+    padding: 1em;
+    border-radius: 0 2em;
+    background-color: #15110b;
+    border-color: #15110b;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+    color: goldenrod;
+    text-shadow: 2px 2px 5px red;
+    font-size: 1.5rem;
+}

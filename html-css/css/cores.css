@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+#usando-id a{
+	color: #F5ED0A;
+}
+
+.background {
+	background-color: #191970;
+	width: 100%;
+}
+
+	
+header {
+	color: #D9BA32;
+	padding: 0px;
+	text-align: center;
+}
+
+.menu {
+	float: auto;
+	padding: 10px 50px;
+	position: absolute;
+	top: 100px;
+	margin: 0px 50px;
+	color: #6A6AF5;
+}
+
+.menu-right {
+	float: left;
+	display: block;
+	width: 140px;
+	text-align: right;
+	padding:10px 20px;
+	position: absolute;
+	top:100px;
+	margin: 0px 1170px;
+	color: #6A6AF5;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+article {
+	position: absolute;
+	height: auto;
+	margin: 0px 200px;
+	text-align: center;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-size: 13px;
+	color: #A89127;
+	z-index: 99;
+}
+
+.image { 
+
+	   position: relative; 
+
+	   width: 100%;
+	   
+	   top: 100px;
+	   
+	   margin: -666px 0px;
+	   
+	   z-index: 1;
+}
+
+.color-explosion {
+	top: 100px;
+	margin: 0px 0px;
+	z-index: 0;
+}
+
+.divLeft {
+	position: relative;
+	float: left;
+	margin: -100px 350px;
+	padding: 0px;
+}
+
+#photo {
+	width: auto;
+	height: auto;
+	padding: 0px;
+}
+
+.textDiv {
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	padding: 0;
+	font-size: 7px;
+	color: chartreuse;
+}
+
+#spaceText {
+	padding-right: 16px;
+}

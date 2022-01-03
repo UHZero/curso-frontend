@@ -1,0 +1,210 @@
+@import url('tabela.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+/*body {
+	background: url('../imagens/paper.png');
+}*/
+
+body {
+	background: url('../images/lunatic.png') center top no-repeat #000000;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h1, h2, p, li {
+	font-family: "Sofia", sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	color: #ffffff;
+}
+
+a {
+	color: #336;
+	text-decoration: none;
+}
+
+#primeiro-link > a {
+	color: #f00;
+}
+
+ul {
+	font-size: 20px;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: auto;
+	height: 3rem; /* equivalente a 30px */
+}
+
+p {
+	font-size: 1.6rem; /* equivalente a 16px */
+}
+
+
+
+h2 {
+	font-size: 2rem; /* equivalente a 20px */
+	height: 3rem;
+}
+
+.navegacao {
+	background-color: rgba(49, 202, 240, .5);
+	padding: 0.5rem;
+	
+}
+
+.navegacao li {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	line-height: 1.2rem;
+	width: auto;
+}
+
+.navegacao li:hover {
+	background-color: rgba(49, 202, 240, .4);
+}
+
+.navegacao li a:hover {
+	color: #333333;
+	font-weight: bold;
+}
+
+.navegacao a {
+	color: #ffffff;
+	display: block;
+	margin-bottom: .5rem;
+	width: 100%;
+}
+
+header {
+  background-color: #ddd;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+header > h2 {
+	font-size: 3rem;
+	font-family: "Audiowide", sans-serif;
+}
+
+header > h2 ~ p {
+	text-transform: uppercase;
+	line-height: 3rem;
+	font-weight: bolder;
+	font-family: 'Meow Script', cursive;
+	letter-spacing: .5rem;
+}
+
+header > div > h2 {
+	font-family: "Audiowide", sans-serif;
+	letter-spacing: 1.9rem;
+}
+
+header > h5 {
+	background-color: rgba(73, 59, 220, 0.4);
+	color: rgba(6, 6, 6, 0.72);
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > h4, h3 {
+	font-size: 1.9rem;
+	font-family: "Audiowide", sans-serif;
+	line-height: 1.4em;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  height: 29.4rem;
+}
+
+article > h3 {
+	float: right;
+	font-size: 1.3em;
+	color: antiquewhite;
+}
+
+article > h3 + p {
+	font-size: 3em;
+}
+
+article > p {
+	font-family: "Sofia", sans-serif;
+	font-size: 2em;
+	line-height: 1.3em;
+}
+
+article > h3 + p + p + p {
+	/*padding: .6em 0 0 0;*/
+	text-align: center;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+section {
+	background-color: #5bc63d57;
+	height: 44rem;
+}
+
+footer {
+  padding: 3em;
+  text-align: center;
+}
+
+footer > p {
+	font-family: 'Meow Script', cursive;
+	font-size: xxx-large;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+header,
+footer {
+	background-color: #016c448c;
+}
+
+footer > p {
+	color: rgb(255, 255, 255);
+}

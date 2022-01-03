@@ -1,0 +1,67 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh; /* viewport height */
+    background-color: darkblue;
+    overflow: overlay;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+div {
+    padding: 20px 0;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    width: 100vw; /* viewport width  */
+    background-color: chartreuse;
+    padding: 20px 0;
+    height: 400px;
+}
+
+nav {
+    background-color: green;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+
+article {
+    background-color: antiquewhite;
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box; /* considera o padding e border na largura e altura*/
+}
+
+.fixed-width {
+    background-color: cornflowerblue;
+    width: 200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.first-background {
+    background-image: url('../images/bolhas.png');
+    height: 23.3vh;
+    width: 100%;
+    background-color: cyan;
+    background-repeat: round; /* eixo y repete na vertical e x na horizontal, round faz  com que a imagem apareça por inteira */
+}
+
+div img {
+    width: 100%;
+}

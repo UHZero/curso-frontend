@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width, initial-scale 1"> <!-- meta tag usada para que o html se ajuste na tela do dispositivo -->
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 60px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: Red;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #AAFFBB;
+			  padding: 62px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 6;
+			}
+
+			article {
+			  float: left;
+			  padding: 40px;
+			  width: 70%;
+			  background-color: #zzz;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #999;
+			  padding: 50px;
+			  text-align: center;
+			  color: blue;
+			}
+
+			/* Layout responsivo - faz com que as duas colunas / caixas sejam empilhadas uma em cima da outra, em vez de uma ao lado da outra, em telas pequenas */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+		</style><!-- O box sizing com o valor border box faz com que o navegador não calcule dimensão de um elemento somando bordas e margens com altura e largura.@media funciona para você determinar um estilo CSS para cada tipo de mídia que te interessar. Os mais comuns de se ver são os @media screen e @media print , um é para determinas o CSS para telas e o outro para determinar um CSS apenas quando for imprimir a página -->
+	</head>
+	<body>
+		<header>
+			<h2>Example</h2>
+		</header>
+		
+		<section>
+		
+			<nav>
+				<ul>
+					<li><a href="endereço1">home</a></li>
+					<li><a href="endereço2">sobre</a></li>
+					<li><a href="endereço3">contato</a></li>
+				</ul>
+			</nav>
+			
+			<article>
+				<h1>Titulo do Artigo</h1>
+				<p>Texto aleatório shauhduiahfiughlsbkfgbaoghaoibarjvihoi</p>
+				<p>IUH GSLUIHGAHioçjçiofjjKIAJjgõrjgaojg,gkajopajporjkdfjsjkljbhairh</p>
+			</article>
+			
+		</section>
+		
+		<footer>
+				<p>Under View - Default</p>
+		</footer>
+		
+	</body>
+</html>

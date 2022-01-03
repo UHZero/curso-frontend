@@ -1,0 +1,66 @@
+
+table {
+  /*background: rgba(220, 205, 240, 0.6);*/
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tbody {
+  background: rgba(252, 252, 252, 0.66);
+}
+
+table tr {
+  border: 1px solid;
+  border-color: #000000;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #21680057;
+} /* even trabalha com numeros pares e odd impares */
+
+table tbody tr:hover {
+  background: rgba(32, 195, 227, 0.3);
+}
+
+table th,
+table td{
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+table tr td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+
+table th {
+  background-color: rgba(49, 202, 240, .5);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+table tr th:first-child {
+  text-align: left;
+}
+
+.table-container {
+  /*padding: 2rem 1rem;*/
+}
+
+.table-container h3 {
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+  font-weight: bold;
+  background: #000000C7;
+  color: #FFFFFF;
+}
+
+.table-container tfoot tr td {
+  font-size: 1.8rem;
+}

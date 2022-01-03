@@ -1,0 +1,39 @@
+div {
+    margin: 40px auto;
+}
+
+
+/* Cria um Circulo*/
+#grafico-01 {
+    /*background-color: blue;*/
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Filtros */
+#grafico-01 {
+    filter: drop-shadow(15px 8px 6px rgb(124, 109, 109));
+    max-width: 100%;
+}
+
+.filtro {
+    filter: grayscale(100%);
+    filter: blur(5px); /* desfoque */
+    filter: brightness(50%);
+    filter: invert(100%);
+    filter: opacity(50%);
+    filter: saturate(75%);
+    filter: saturate(150%) sepia(100%);
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+    
+}

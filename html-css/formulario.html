@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>EBAC - Módulo 06</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/reset-meyer.css">
+		<link rel="stylesheet" type="text/css" href="./css/formulario.css"> 
+		<link rel="icon" type="image/x-icon" href="./images/eyefavicon.ico">
+	</head>
+
+	<body>
+
+		<header>
+			<h4><strong>Aplicando CSS</strong> - <em>Módulo 06</em></h4>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+						<li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank"><em>Adobe Colors</em>
+						</a></li>
+						<li><a href="https://www.w3schools.com/html/default.asp" target="_blank"><em>W3 Schools</em>
+						</a></li>
+						<li><a href="https://www.img2go.com/pt" target="_blank"><em>im2go</em>
+						</a></li>
+						<li><a href="https://www.blitzresults.com/pt-br/pixel/" target="_blank"><em><sup>px</sup>Calc<sub>cm</sub></em>
+						</a></li>
+						<li><a href="https://www.pngwing.com/" target="_blank"><em>PNG Wing</em>
+						</a></li>
+						<li><a href="https://fonts.google.com/" target="_blank"><strong><i>Google Fonts</i></strong></a></li>
+						<li><a href="https://www.lipsum.com/" target="_blank"><strong><i>Lorem Ipsum</i></strong></a></li>
+						<li><a href="https://trello.com/" target="_blank"><strong><i>Trello</i></strong></a></li>
+				</ul>
+			</nav>
+
+			<article class="color-ground">
+
+				<h1 style="text-align:center">Contato</h1>
+				<p style="padding:1rem">Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p class="label-align">
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="python"> Python
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p class="label-align">
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="python"> Python
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div class="label-align">
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Violeta" selected>Violeta</option>
+						</select>
+					</div>
+
+					<div id="firstdiv">
+						<input type="submit">
+					</div>
+					
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Áureo Moraes Filho</p>
+		</footer>
+		
+	</body>
+</html>

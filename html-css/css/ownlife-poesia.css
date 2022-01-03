@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Rock+3D&family=Shizuru&display=swap');
+
+/*font-family: 'Caveat', cursive;
+
+font-family: 'Rock 3D', cursive;
+
+font-family: 'Shizuru', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: darkorchid;
+}
+
+header {
+    background-image: url("../images/the-xx.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: darkslateblue;
+    padding: 3em;
+}
+
+header > h1 {
+    font-size: 3rem;
+    color: palegoldenrod;
+    font-family: 'Rock 3D', cursive;
+    margin: 0 2em;
+}
+
+section {
+    background-color: #20b8d194;
+}
+
+nav {
+    display: block;
+    float: left;
+    width: 20%;
+    background-image: url("../images/tree-nav.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 3.8rem;
+    font-family: 'Shizuru', cursive;
+    color: springgreen;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+article {
+    display: block;
+    float: left;
+    width: 80%;
+    height: 100vh;
+    background-image: url("../images/the-x.png");
+    background-repeat: round;
+}
+
+
+section::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+footer {
+    display: block;
+    padding: 2em;
+    background-image: url("../images/solo.png");
+    background-repeat: round;
+}
+
+footer > p {
+    font-size: 2rem;
+    font-family: 'Rock 3D', cursive;
+    color: gold;
+}
+
+footer > p:hover {
+    font-size: 3rem;
+}
+
+[type="text"], [type="email"], textarea {
+	width: 100%;
+	padding:  1rem;
+	display: block;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #7fffd48c;
+    font-size: 1.8rem;
+}
+
+form > div {
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    color: floralwhite;
+}
+
+.coluna {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#bolha {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.coluna #bolha {
+    margin: 40px auto;
+}
+
+.filtro {
+    filter: opacity(50%) grayscale(100%);
+}
+
+.filtro:hover {
+    filter: saturate(120%) brightness(110%);
+}
+
+/* Tablet */
+@media (max-width: 889px){
+    #bolha {
+        width: 200px;
+        height: 200px;
+    }
+    #bolha img {
+        width: 100%;
+        height: 100%;
+    }
+    nav {
+        background-size: contain;
+    }
+    nav a {
+        font-size: 3rem;
+        margin: 10px;
+        line-height: 2em;
+    }
+}
+
+/* Smartphone */
+@media (max-width: 691px){
+    header > h1 {
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        background-image: unset;
+        width: 100%;
+        height: 8vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    article {
+        width: 100%;
+    }
+    body {
+        min-width: 400px;
+    }
+    #bolha {
+        width: 150px;
+        height: 150px;
+    }
+}
