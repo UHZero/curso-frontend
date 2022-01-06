@@ -15,7 +15,9 @@ body {
 
 .first-container {
     background-image: url("../images/alien.dazm/circuit-board-g6fe5321af_1280.png");
-    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
     margin-top: -20px;
 }
 
@@ -25,18 +27,87 @@ header {
     width: 100%;
 }
 
+h1 {
+    font-size: 6rem;
+    margin: 2rem;
+    color: #ff8000;
+}
+
+h1 + p {
+    margin: 0 30rem;
+    font-size: 3rem;
+    color: #ff8000;
+}
+
 section {
-
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 1.5rem;
+    /*padding: 20px;*/
 }
 
-nav {
-
+section nav {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 125vh;
 }
 
-article {
+nav > ul > li {
+    font-size: 3rem;
+}
 
+.background-nav {
+    background-image: url("../images/alien.dazm/numbers.png");
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 80%;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: burlywood;
 }
 
 footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    background-color: darkslategrey;
+}
 
+footer p {
+    color: floralwhite;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
 }
