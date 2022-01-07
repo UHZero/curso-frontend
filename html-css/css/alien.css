@@ -59,7 +59,10 @@ nav > ul > li {
 }
 
 .background-nav {
-    background-image: url("../images/alien.dazm/numbers.png");
+    background-image: url("../images/alien.dazm/AlienAffiliates.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 section article {
