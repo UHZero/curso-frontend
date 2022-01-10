@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&family=Saira+Condensed:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ body {
     background-image: url("../images/alien.dazm/artificial-brain.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-position-x: 65rem;
+    /*background-position-x: 65rem;*/
     padding: 20px 0;
     margin-top: -20px;
 }
@@ -31,13 +33,24 @@ header {
 h1 {
     font-size: 6rem;
     margin: 2rem;
-    color: #ff8000;
+   /*color: #028df2;*/
+    color: #01497d57;
+    font-family: 'Press Start 2P', cursive;
+    /*text-shadow: 3px 3px 5px #00db8b;*/
+    text-shadow: 1px 1px 2px black, 0 0 25px #00cb7e, 0 0 5px #005633;
 }
 
 h1 + p {
-    margin: 0 30rem;
-    font-size: 3rem;
-    color: #ff8000;
+    margin: 0 3rem;
+    font-size: 2rem;
+    color: #00be6f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1+p:hover {
+    letter-spacing: 1rem;
+    color: #00fcfd;
+    background-color: transparent;
 }
 
 section {
@@ -56,34 +69,41 @@ section nav {
 }
 
 nav li {
-    background-color: grey;
+    background-color: #00be6fb0;
     margin: 1px 20px 1px 0;
     padding: 10px;
 }
 
 nav li:hover {
-    background-color: honeydew;
+    background-color: #00b265;
 }
 
 nav > ul > li {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: 600;
 }
 
 .background-nav {
     background-image: url("../images/alien.dazm/AlienAffiliates.webp");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: bottom;
 }
 
 section article {
     display: block;
     float: left;
     width: 80%;
+    color: #00cc85;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .dna-ground {
-    background-image: url("../images/alien.dazm/dna-200px.png");
+    background-image: url("../images/alien.dazm/world-connect.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 p {
@@ -107,9 +127,17 @@ ol {
     margin-left: 30px;
 }
 
+h2:hover, h3:hover, h4:hover, p:hover, ol:hover {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
 ol li {
     font-size: 1.4rem;
-    color: burlywood;
+    line-height: 1.5rem;
+    /*color: #00cc85;*/
 }
 
 footer {
@@ -117,7 +145,12 @@ footer {
     float: left;
     width: 100%;
     padding: 20px;
-    background-color: darkslategrey;
+    background-color: #003553;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+footer p:hover, footer small:hover {
+    background-color: transparent;
 }
 
 footer p {
