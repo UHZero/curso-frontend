@@ -85,6 +85,12 @@ nav > ul > li {
     font-weight: 600;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
 .background-nav {
     background-image: url("../images/alien.dazm/AlienAffiliates.webp");
     background-size: contain;
@@ -227,4 +233,30 @@ html .cog-cognito--styled .cog-button--primary:hover, :root:root:root:root:root 
 
 html .cog-cognito--styled .cog-button > span, :root:root:root:root:root .cog-cognito--styled .cog-button > span {
     justify-content: normal !important;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+}
+
+#contato-id {
+    background-color: #00834d;
+    width: 100%;
+}
+
+#contato-id h2, #contato-id p {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: unset;
+}
+
+#contato-id h2:hover, #contato-id p:hover {
+    background-color: transparent;
+    letter-spacing: unset;
 }
