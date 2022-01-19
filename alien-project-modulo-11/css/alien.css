@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&family=Saira+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.first-container {
+    background-image: url("../images/alien.dazm/artificial-brain.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    /*background-position-x: 65rem;*/
+    padding: 20px 0;
+    margin-top: -20px;
+}
+
+header {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 2rem;
+   /*color: #028df2;*/
+    color: #01497d57;
+    font-family: 'Press Start 2P', cursive;
+    /*text-shadow: 3px 3px 5px #00db8b;*/
+    text-shadow: 1px 1px 2px black, 0 0 25px #00cb7e, 0 0 5px #005633;
+}
+
+h1 + p {
+    margin: 0 3rem;
+    font-size: 2rem;
+    color: #00be6f;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1+p:hover {
+    letter-spacing: 1rem;
+    color: #00fcfd;
+    background-color: transparent;
+}
+
+section {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 1.5rem;
+    /*padding: 20px;*/
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 125vh;
+}
+
+nav li {
+    background-color: #00be6fb0;
+    margin: 1px 20px 1px 0;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #00fcfd;
+}
+
+nav > ul > li {
+    font-size: 1.8rem;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.background-nav {
+    background-image: url("../images/alien.dazm/AlienAffiliates.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 80%;
+    color: #00cc85;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.dna-ground {
+    background-image: url("../images/alien.dazm/world-connect.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 5px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+h2:hover, h3:hover, h4:hover, p:hover, ol:hover {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+ol li {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    /*color: #00cc85;*/
+}
+
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    background-color: #003553;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+footer p:hover, footer small:hover {
+    background-color: transparent;
+}
+
+footer p {
+    color: floralwhite;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
+
+.cognito {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: -20px;
+    background-color: #00834d;
+}
+
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+    height: 0;
+    overflow: hidden !important;
+}
+
+html .cog-form, :root:root:root:root:root .cog-form {
+    overflow-y: hidden !important;
+}
+
+html .cog-abuse ul, :root:root:root:root:root .cog-abuse ul {
+    height: 0;
+}
+
+html .cog-abuse, :root:root:root:root:root .cog-abuse {
+    height: 0;
+}
+
+html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .cog-branding--minimal .cog-branding__powered {
+    color: rgb(1 34 58);
+}
+
+html .cog-cognito *, html .cog-cognito *::before, html .cog-cognito *::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito *::before, :root:root:root:root:root .cog-cognito *::after {
+    background-color: #00834d;
+    margin-bottom: -3px;
+}
+
+html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
+    background-color: transparent;
+}
+
+html .cog-page__navigation--condensed .cog-button, :root:root:root:root:root .cog-page__navigation--condensed .cog-button {
+    width: 13% !important;
+}
+
+.cog-1 {
+    --primary: transparent !important;
+}
+
+span.cog-button__text {
+    background-color: #00fcfd !important;
+    color: black !important;
+    font-weight: 600 !important;
+    padding: 15px !important;
+    border-radius: 15px;
+}
+
+span.cog-button__text:hover {
+    background-color: #239941 !important;
+}
+
+html .cog-cognito--styled .cog-button--primary:hover, :root:root:root:root:root .cog-cognito--styled .cog-button--primary:hover {
+     border-color: transparent !important;
+}
+
+html .cog-cognito--styled .cog-button > span, :root:root:root:root:root .cog-cognito--styled .cog-button > span {
+    justify-content: normal !important;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
+}
+
+#contato-id {
+    background-color: #00834d;
+    width: 100%;
+}
+
+#contato-id h2, #contato-id p {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: unset;
+}
+
+#contato-id h2:hover, #contato-id p:hover {
+    background-color: transparent;
+    letter-spacing: unset;
+}
+
+@media (max-width: 1024px) {
+    body {
+        width: 92vw;
+    }
+}
+
+@media (max-width: 768px) {
+    section article {
+        color: white;
+    }
+    section nav {
+        height: 150vh;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h1+p {
+        letter-spacing: 0.6rem;
+        color: #00fcfd;
+        background-color: transparent;
+    }
+    #contato-id {
+        width: 104vw;
+    }
+    nav > ul > li {
+        font-size: 1.5rem;
+    }
+    footer {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 658px) {
+    section nav,
+    section article {
+        width: 100%;
+        height: auto;
+    }
+    section nav li {
+        padding: auto;
+    }
+    nav > ul > li {
+        width: 60vw;
+        font-size: 1.8rem;
+    }
+    .background-nav {
+        background-position: right;
+    }
+    #contato-id {
+        width: 104vw;
+    }
+    body {
+        min-width: 360px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 97vw;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h1+p {
+        font-size: 1.6rem;
+    }
+    #contato-id {
+        width: 118vw;
+    }
+}

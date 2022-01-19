@@ -12,7 +12,7 @@ html {
 body {
     background-color: black;
     color: white;
-
+    overflow-x: hidden;
 }
 
 .first-container {
@@ -110,6 +110,7 @@ section article {
     background-image: url("../images/alien.dazm/world-connect.png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0 5px;
 }
 
 p {
@@ -200,7 +201,7 @@ html .cog-branding--minimal .cog-branding__powered, :root:root:root:root:root .c
 
 html .cog-cognito *, html .cog-cognito *::before, html .cog-cognito *::after, :root:root:root:root:root .cog-cognito *, :root:root:root:root:root .cog-cognito *::before, :root:root:root:root:root .cog-cognito *::after {
     background-color: #00834d;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 }
 
 html .cog-branding--minimal, html .cog-branding--minimal *, :root:root:root:root:root .cog-branding--minimal, :root:root:root:root:root .cog-branding--minimal * {
@@ -259,4 +260,75 @@ html .cog-cognito--styled .cog-button > span, :root:root:root:root:root .cog-cog
 #contato-id h2:hover, #contato-id p:hover {
     background-color: transparent;
     letter-spacing: unset;
+}
+
+@media (max-width: 1024px) {
+    body {
+        width: 92vw;
+    }
+}
+
+@media (max-width: 768px) {
+    section article {
+        color: white;
+    }
+    section nav {
+        height: 150vh;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h1+p {
+        letter-spacing: 0.6rem;
+        color: #00fcfd;
+        background-color: transparent;
+    }
+    #contato-id {
+        width: 104vw;
+    }
+    nav > ul > li {
+        font-size: 1.5rem;
+    }
+    footer {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 658px) {
+    section nav,
+    section article {
+        width: 100%;
+        height: auto;
+    }
+    section nav li {
+        padding: auto;
+    }
+    nav > ul > li {
+        width: 60vw;
+        font-size: 1.8rem;
+    }
+    .background-nav {
+        background-position: right;
+    }
+    #contato-id {
+        width: 104vw;
+    }
+    body {
+        min-width: 360px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        width: 97vw;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h1+p {
+        font-size: 1.6rem;
+    }
+    #contato-id {
+        width: 118vw;
+    }
 }
