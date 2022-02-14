@@ -1,4 +1,4 @@
-var soma = [
+/*var soma = [
     [10, 15],
     ["10", 2],
     [10, true],
@@ -23,10 +23,16 @@ for (var i = 0; i < soma.length; i++) {
     total = somatoria;
     console.log("total: " + total);
 }
+*/
 
+//resultado, tipo e código.
+//[10, 15] = 25, typeof = "number"
+//["10", 2] = '102', typeof = "string"
+//[10, true] = 11, typeof = "number"
+//["dez", true] = 'deztrue', typeof = "string"
+//[10, false] = 10, typeof = "number"
+//[true, true] = 2, typeof = "number"
 
-//tentando entender o código
-//esse ficou complicado de calcular o typeof dos resultados usando uma função por serem numeros e strings, se puderem me ensinar eu agradeço.
 
 var soma = [
     [10, 15],
@@ -74,7 +80,7 @@ for (var i = 0; i < bolean.length; i++){
 }
 
 //multiplicação e divisão
-//obs.: não consegui construir uma função para calcular o typeof dos resultados, no caso da variavel multDiv os tipos são numéricos e float.
+//variavel multDiv os tipos são numéricos e float.
 
 var multDiv = [];
 multDiv [0] = ["10" * 2];
@@ -130,13 +136,12 @@ var prestacao = 750;
 for (p = 3000; p < valor; p + prestacao){
     total = p += prestacao;
     console.log(total); // até aqui funciona
+}
 //    for (i = 0; i < parcela; i++){
 //        parcela = p += prestacao[i];
 //        console.log("pestação: " + parseInt(i+1));
-//    }
-}
+//    } - tentei fazer sair um contagem junto com as parcelas mas nao obtive sucesso, total de 36 parcelas
 
-//tentei fazer sair um contagem junto com as parcelas mas nao obtive sucesso, total de 36 parcelas!
 
 //letra (f)]
 var branco = "preto";
