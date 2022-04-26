@@ -93,3 +93,11 @@ textarea {
     background-color: #191a1e;
     color: #ffd800;
 }
+
+#theme-chosen > li > button {
+    margin: 5px;
+}
+
+.light-theme {
+    background-color: #fff;
+}
