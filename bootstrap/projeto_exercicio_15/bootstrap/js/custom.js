@@ -21,6 +21,7 @@ $('button.btn.btn-light').click(function(){
     $('button.btn:nth-child(4)').css('border-color', '#3a0080')
 })
 
+
 $('button.btn.btn-dark').click(function(){
     $('body').removeClass('light-theme')
     $('h1').css('color', 'white')
