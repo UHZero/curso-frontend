@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-size: 62.5%; */
+}
+
+body{
+    background-color: $--sass-black-color;
+}
+
+header {
+    h1{
+        color: $--sass-white-color;
+        font-family: $--sass-font-family;
+        font-size: 3em;
+    }
+}
+
+footer{
+    h5{
+        font-family: $--sass-font-family;
+        font-size: $--sass-font-size;
+        color: $--sass-white-color;
+        font-size: $--sass-font-size;
+    }
+}

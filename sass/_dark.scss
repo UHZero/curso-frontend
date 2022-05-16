@@ -1,0 +1,30 @@
+.container {
+
+
+    .secao1.dark {
+        width: 100vw;
+        font-size: $--sass-font-size;
+        background-color: $--sass-black-color;
+        font-family: $--sass-font-family;
+        float: left;
+
+    }
+
+    article {
+        width: 49vw;
+
+        h2 {
+            color: $--sass-white-color;
+            font-weight: $--sass-font-weigth;
+        }
+    }
+
+    div {
+        width: 49vw;
+
+        img {
+            display: block;
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+.container {
+
+
+    .secao2.light {
+        width: 100vw;
+        font-size: $--sass-font-size;
+        background-color: $--sass-white-color;
+        color: $--sass-black-color;
+        font-family: $--sass-font-family;
+        font-weight: $--sass-font-weigth;
+
+
+
+    }
+
+    article {
+        width: 80vw;
+        padding: $--sass-padding;
+
+        p {
+            color: $--sass-black-color;
+        }
+    }
+
+}

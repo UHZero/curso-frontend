@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    aside{
+        float: left;
+        ul{
+            background-color: $--sass-blue-color;
+            li{
+                a{
+                    font-family: $--sass-font-family;
+                    font-weight: $--sass-font-weigth;
+                    padding: $--sass-padding;
+                    font-size: $--sass-font-size;
+                    color: $--sass-red-color;
+                }
+            }
+        }
+    }
+}

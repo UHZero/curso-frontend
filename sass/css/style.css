@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* font-size: 62.5%; */
+}
+
+body {
+  background-color: #000;
+}
+
+header h1 {
+  color: #fff;
+  font-family: Helvetica, monospace;
+  font-size: 3em;
+}
+
+footer h5 {
+  font-family: Helvetica, monospace;
+  font-size: 1.4em;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+nav {
+  display: flex;
+}
+nav aside {
+  float: left;
+}
+nav aside ul {
+  background-color: #00f;
+}
+nav aside ul li a {
+  font-family: Helvetica, monospace;
+  font-weight: bold;
+  padding: 0.2em;
+  font-size: 1.4em;
+  color: #f00;
+}
+
+.container .secao1.dark {
+  width: 100vw;
+  font-size: 1.4em;
+  background-color: #000;
+  font-family: Helvetica, monospace;
+  float: left;
+}
+.container article {
+  width: 49vw;
+}
+.container article h2 {
+  color: #fff;
+  font-weight: bold;
+}
+.container div {
+  width: 49vw;
+}
+.container div img {
+  display: block;
+}
+
+.container .secao2.light {
+  width: 100vw;
+  font-size: 1.4em;
+  background-color: #fff;
+  color: #000;
+  font-family: Helvetica, monospace;
+  font-weight: bold;
+}
+.container article {
+  width: 80vw;
+  padding: 0.2em;
+}
+.container article p {
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
