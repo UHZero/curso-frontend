@@ -10,6 +10,7 @@ const { series } = require('gulp')
 const babel = require('gulp-babel')
 const browserSync = require('browser-sync').create()
 const reload = browserSync.reload
+const sass = require('gulp-sass')( require('node-sass') )
 
 function tarefaImagem() {
 
@@ -32,7 +33,7 @@ function tarefaImagem() {
 function tarefasCSS(callback) {
 
     gulp.src(['node_modules/bootstrap/dist/css/bootstrap.css',
-        'src/style/custom.css'])
+              './src/css/stylesass.css'])
         .pipe(concat('custom.css'))
         .pipe(cssmin())
         .pipe(rename({ suffix: '.min' }))
@@ -67,6 +68,15 @@ function tarefasHTML(callback) {
     return callback()
 }
 
+function tarefasSASS(callback){
+
+    gulp.src('./src/scss/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./src/css'))
+
+    callback()
+}
+
 gulp.task('serve', function(){
 
     browserSync.init({
@@ -82,7 +92,8 @@ exports.styles = tarefasCSS
 exports.scripts = tarefasJS
 exports.images = tarefaImagem
 exports.html = tarefasHTML
+exports.sass = tarefasSASS
 
-const process = series(tarefasHTML, tarefasJS, tarefasCSS)
+const process = series( tarefasSASS, tarefasHTML, tarefasJS, tarefasCSS )
 
 exports.default = process
