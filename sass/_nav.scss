@@ -1,11 +1,11 @@
-nav{
+.navegator{
     display: flex;
-    aside{
+    &__side{
         float: left;
-        ul{
+        &__list{
             background-color: $--sass-blue-color;
-            li{
-                a{
+            &__item{
+                &__link{
                     font-family: $--sass-font-family;
                     font-weight: $--sass-font-weigth;
                     padding: $--sass-padding;

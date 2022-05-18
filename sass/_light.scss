@@ -13,11 +13,11 @@
 
     }
 
-    article {
+    &__lightarticle {
         width: 80vw;
         padding: $--sass-padding;
 
-        p {
+        &__text {
             color: $--sass-black-color;
         }
     }

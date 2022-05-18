@@ -10,19 +10,19 @@
 
     }
 
-    article {
+    &__article {
         width: 49vw;
 
-        h2 {
+        &__subtitle {
             color: $--sass-white-color;
             font-weight: $--sass-font-weigth;
         }
     }
 
-    div {
+    &__content {
         width: 49vw;
 
-        img {
+        &__image {
             display: block;
         }
     }

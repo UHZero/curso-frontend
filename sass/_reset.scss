@@ -9,7 +9,7 @@ body{
 }
 
 header {
-    h1{
+    &__title{
         color: $--sass-white-color;
         font-family: $--sass-font-family;
         font-size: 3em;
@@ -17,7 +17,7 @@ header {
 }
 
 footer{
-    h5{
+    &__footertext{
         font-family: $--sass-font-family;
         font-size: $--sass-font-size;
         color: $--sass-white-color;

@@ -8,29 +8,29 @@ body {
   background-color: #000;
 }
 
-header h1 {
+header > h1 {
   color: #fff;
   font-family: Helvetica, monospace;
   font-size: 3em;
 }
 
-footer h5 {
+footer > h5 {
   font-family: Helvetica, monospace;
   font-size: 1.4em;
   color: #fff;
   font-size: 1.4em;
 }
 
-nav {
+.navegator {
   display: flex;
 }
-nav aside {
+.navegator__side {
   float: left;
 }
-nav aside ul {
+.navegator__side__list {
   background-color: #00f;
 }
-nav aside ul li a {
+.navegator__side__list__item__link {
   font-family: Helvetica, monospace;
   font-weight: bold;
   padding: 0.2em;
@@ -45,17 +45,17 @@ nav aside ul li a {
   font-family: Helvetica, monospace;
   float: left;
 }
-.container article {
+.container__article {
   width: 49vw;
 }
-.container article h2 {
+.container__article__subtitle {
   color: #fff;
   font-weight: bold;
 }
-.container div {
+.container__content {
   width: 49vw;
 }
-.container div img {
+.container__content__image {
   display: block;
 }
 
@@ -67,11 +67,11 @@ nav aside ul li a {
   font-family: Helvetica, monospace;
   font-weight: bold;
 }
-.container article {
+.container__lightarticle {
   width: 80vw;
   padding: 0.2em;
 }
-.container article p {
+.container__lightarticle__text {
   color: #000;
 }
 
