@@ -1,0 +1,8 @@
+.form-control {
+  font-size: 0.9em;
+  background-color: #191a1e;
+  color: #6c757d; }
+
+.form-control:focus {
+  background-color: #191a1e;
+  color: white; }

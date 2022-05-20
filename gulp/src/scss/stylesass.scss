@@ -1,0 +1,160 @@
+@import 'vars';
+@import 'fonts';
+//@import 'theme';
+
+body {
+    //@include theme;
+    background-color: black;
+    font-family: 'manofik'
+}
+
+.col_contato ~ p,
+body ~ p,
+body p {
+    i {
+    font-family: 'manofik';
+    }
+} 
+    
+
+header {
+    h1 {
+    font-family: 'dakota', cursive;
+    letter-spacing: 0.2rem;
+    font-size: 5em;
+    color: white;
+    text-shadow: -5px 3px 4px $--sass-yellowColor;
+    }
+} 
+    
+
+#nav-bar{
+    a{
+        &:hover {
+            color: $--sass-yellowColor;
+            font-size: 1.4em;
+        }
+    }
+} 
+
+#nav-bar{
+    a {
+    color: #e9ecef;
+    font-size: 1.3rem;
+    font-family: 'Permanent Marker', cursive;
+    }
+} 
+
+#sobre {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color: $--sass-yellowColor;
+
+    /*font-family: 'Lavishly Yours', cursive;
+
+    */
+}
+
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    /*width: 33%;*/
+    float: left;
+    padding: 5px;
+    background-color: #191a1e;
+}
+
+#contato {
+    color: $--sass-yellowColor;
+    font-size: 2em;
+}
+
+.btn-success {
+    background-color: $--sass-yellowColor;
+    border-color: $--sass-yellowColor;
+    color: black;
+    font-size: 1em;
+}
+
+.btn-success:hover {
+    background-color: $--sass-yellowHover;
+    border-color: $--sass-yellowHover;
+    font-size: 0.9em;
+}
+
+.btn-primary {
+    background-color: $--sass-yellowColor;
+    border-color: $--sass-yellowColor;
+    color: black;
+    font-size: 1em;
+}
+.btn-primary:hover {
+    background-color: $--sass-yellowHover;
+    border-color: $--sass-yellowHover;
+    font-size: 0.9em;
+}
+
+.img-fluid {
+    border-radius: 0.6em;
+    filter: saturate(1.3);
+}
+
+.input-group{
+    .form-control, 
+    .input-group{
+        .form-select {
+    font-size: 0.9em;
+    background-color: #191a1e;
+    color: $--sass-yellowColor;
+        }
+    }
+}
+
+#theme-chosen{
+    li{
+        button {
+    margin: 5px;
+        } 
+    } 
+}
+
+.light-theme {
+    background-color: #fff;
+}
+
+.card-title.card-title {
+    &__choco {
+        font-family: $--sass-font-chocollatte;
+        font-size: 2rem;
+        color: $--sass-yellowColor;
+    }
+}
+
+.card-text.card-title {
+    &__subchoco {
+        font-family: $--sass-font-chocollatte;
+        font-size: 1.5rem;
+        color: $--sass-yellowColor;
+    }
+}
+
+.dl_tobacco,
+#cyd{
+    font-family: 'dakota';
+    font-size: 3rem;
+}
+
+.col{
+    &__contato {
+        font-family: 'manofik';
+        color: $--sass-yellowColor;
+    }
+}
