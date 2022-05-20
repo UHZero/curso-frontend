@@ -88,12 +88,21 @@ gulp.task('serve', function(){
     gulp.watch('./src/**/*').on('change', reload)
 })
 
+function tarefasFont(callback) {
+
+    gulp.src('./src/fonts/**')
+    .pipe(gulp.dest('./dist/fonts'))
+
+    return callback()
+}
+
 exports.styles = tarefasCSS
 exports.scripts = tarefasJS
 exports.images = tarefaImagem
 exports.html = tarefasHTML
 exports.sass = tarefasSASS
+exports.font = tarefasFont
 
-const process = series( tarefasSASS, tarefasHTML, tarefasJS, tarefasCSS )
+const process = series( tarefasSASS, tarefasHTML, tarefasJS, tarefasCSS, tarefasFont )
 
 exports.default = process
